@@ -17,10 +17,10 @@ Cookies will eventually expire. Just repeat the dumping process.
 All comics pages from Marvel Unlimited come in jpg format. They'll be converted losslessly to CBZ.
 
 Download two comics:   
-`MUR.exe https://www.marvel.com/comics/issue/89543/captain_america_2018_28 https://read.marvel.com/#/book/56459`
+`mur_x86.exe https://www.marvel.com/comics/issue/89543/captain_america_2018_28 https://read.marvel.com/#/book/56459`
 
 Download a single comic and from two text files:   
-`MUR.exe https://www.marvel.com/comics/issue/89543/captain_america_2018_28 G:\1.txt G:\2.txt`
+`mur_x64.exe https://www.marvel.com/comics/issue/89543/captain_america_2018_28 G:\1.txt G:\2.txt`
 
 If building or running from source, you'll need to include the structs.   
 `go run main.go structs.go <urls>...`
