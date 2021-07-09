@@ -6,7 +6,7 @@ Go port of my Marvel Unlimited comic downloader, Marvel Universe Ripper.
 
 # Setup
 **A subscription is required.**  
-1. Login to [Marvel](http://www.marvel.com/).
+1. Login to [Marvel](https://dereferer.me/?http%3A//www.marvel.com/).
 2. Install [EditThisCookie Chrome extension](https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg?hl=en) (any other Netscape extensions will also work).
 3. Dump cookies to txt file named "cookies.txt" (http://www.marvel.com/ tab only).
 4. Move cookies to MUR's directory.
