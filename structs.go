@@ -36,10 +36,6 @@ type Meta struct {
 					} `json:"extended_list"`
 					ExtendedListRoles []string `json:"extended_list_roles"`
 				} `json:"creators"`
-				PurchaseData struct {
-					DigitalPrice   float64 `json:"digital_price"`
-					StoreURLMobile string  `json:"store_url_mobile"`
-				} `json:"purchase_data"`
 			} `json:"issue_meta"`
 			Pages []struct {
 				ID        int    `json:"id"`
@@ -94,10 +90,6 @@ type Meta struct {
 						} `json:"extended_list"`
 						ExtendedListRoles []string `json:"extended_list_roles"`
 					} `json:"creators"`
-					PurchaseData struct {
-						DigitalPrice   float64 `json:"digital_price"`
-						StoreURLMobile string  `json:"store_url_mobile"`
-					} `json:"purchase_data"`
 				} `json:"prev_issue_meta"`
 				UpcomingIssueMeta struct {
 					ID                   int    `json:"id"`
@@ -123,10 +115,6 @@ type Meta struct {
 						} `json:"extended_list"`
 						ExtendedListRoles []string `json:"extended_list_roles"`
 					} `json:"creators"`
-					PurchaseData struct {
-						DigitalPrice   float64 `json:"digital_price"`
-						StoreURLMobile string  `json:"store_url_mobile"`
-					} `json:"purchase_data"`
 				} `json:"upcoming_issue_meta"`
 			} `json:"prev_next_issue"`
 			ExternalLinks struct {
